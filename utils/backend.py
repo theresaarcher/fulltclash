@@ -122,7 +122,7 @@ class Basecore:
 
 class Speedtest:
     """
-    此类代码原本来源于 https://github.com/OreosLab/SSRSpeedN 项目。代码已做修改。
+    此类代码原本来源于 https://ghfast.top/https://github.com/OreosLab/SSRSpeedN 项目。代码已做修改。
     """
 
     def __init__(self):

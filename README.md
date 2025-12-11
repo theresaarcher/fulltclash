@@ -2,16 +2,16 @@
 <div align="center">
     <h1> FullTClash</h1>
     <p>🤖 节点质量检测的Telegram机器人 </p>
-    <p><a href="https://github.com/AirportR/fulltclash/blob/dev/README-EN.md">English</a>&nbsp &nbsp 简体中文</p>
+    <p><a href="https://ghfast.top/https://github.com/AirportR/fulltclash/blob/dev/README-EN.md">English</a>&nbsp &nbsp 简体中文</p>
     <a href="https://fulltclash.gitbook.io/fulltclash-doc"><img src="https://img.shields.io/static/v1?message=doc&color=blue&logo=micropython&label=FullTClash"></a> 
     <img src="https://img.shields.io/github/license/AirportR/fulltclash">
     <a href="https://app.codacy.com/gh/AirportR/fulltclash/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/389b2787eb7647dfad486ccaa70eabf4"></a>
-    <a href="https://github.com/AirportR/fulltclash/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+    <a href="https://ghfast.top/https://github.com/AirportR/fulltclash/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
     <br>
     <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/airportr/fulltclash">
     <img alt="Docker Image Size" src="https://img.shields.io/docker/image-size/airportr/fulltclash">
     <br>
-    <a href="https://github.com/AirportR/fulltclash/"><img src="https://img.shields.io/github/stars/AirportR/fulltclash?style=social"></a>
+    <a href="https://ghfast.top/https://github.com/AirportR/fulltclash/"><img src="https://img.shields.io/github/stars/AirportR/fulltclash?style=social"></a>
 	<a href = "https://t.me/FullTclash"><img src="https://img.shields.io/static/v1?style=social&logo=telegram&label=channel&message=channel" ></a>
 	<br>
 	<br>
@@ -63,10 +63,10 @@
 
 
 ## 分支说明
-* [master](https://github.com/AirportR/fulltclash/tree/master) 主分支，主打稳定。  
-* [backend](https://github.com/AirportR/fulltclash/tree/backend) 纯后端代码，无前端BOT，意味着需要额外的bot作主端。  
-* [dev](https://github.com/AirportR/fulltclash/tree/dev) 开发进度最前沿。  
-* [old](https://github.com/AirportR/fulltclash/tree/dev) 依靠调用原版Clash Restful API进行测试。可随意更换内核，但已停止新功能开发。  
+* [master](https://ghfast.top/https://github.com/AirportR/fulltclash/tree/master) 主分支，主打稳定。  
+* [backend](https://ghfast.top/https://github.com/AirportR/fulltclash/tree/backend) 纯后端代码，无前端BOT，意味着需要额外的bot作主端。  
+* [dev](https://ghfast.top/https://github.com/AirportR/fulltclash/tree/dev) 开发进度最前沿。  
+* [old](https://ghfast.top/https://github.com/AirportR/fulltclash/tree/dev) 依靠调用原版Clash Restful API进行测试。可随意更换内核，但已停止新功能开发。  
 
 ## 支持协议
 
@@ -93,9 +93,9 @@
 
 流媒体测试:
 
-![测试图片](https://github.com/AirportR/fulltclash/blob/dev/resources/image/test_example.png)
+![测试图片](https://ghfast.top/https://github.com/AirportR/fulltclash/blob/dev/resources/image/test_example.png)
 
-![测试图片](https://github.com/AirportR/fulltclash/blob/dev/resources/image/topo_example.jpg)
+![测试图片](https://ghfast.top/https://github.com/AirportR/fulltclash/blob/dev/resources/image/topo_example.jpg)
 
 ## 如何开始
 
@@ -115,7 +115,7 @@
 方法1：直接下载（不会有人不知道在哪下吧？）\
 方法2：使用git（Linux推荐，方便更新），首先安装git，然后拉取仓库。以下指令为 Ubuntu 发行版作示例，Windows自行解决。
 ```shell
-apt install -y git && git clone https://github.com/AirportR/fulltclash.git && cd fulltclash
+apt install -y git && git clone https://ghfast.top/https://github.com/AirportR/fulltclash.git && cd fulltclash
 ```
 此方法在中国大陆可能需要代理加速，请自行解决。
 ### 环境准备
@@ -150,7 +150,7 @@ pip install -r requirements.txt
   从3.6.8开始，初次启动将自动下载以下(Windows,MacOS,Linux)(x86_64,arm64)的二进制文件，无需配置。
   
   当然如果您想手动下载， 请自行前往以下网址获取: 
-  https://github.com/AirportR/FullTCore/releases \
+  https://ghfast.top/https://github.com/AirportR/FullTCore/releases \
   下载解压后可以放到 ./bin/ 目录下，比如文件名为 FullTCore ，下面的配置文件这样写：
   ```yaml
   clash:
@@ -228,12 +228,12 @@ FullTClash有专用的代理客户端，存放在 ./bin/下。初次启动会自
 没有所用架构？
 如果发现没有自动下载，说明没有在仓库中找到您所用架构的二进制文件，比如mips架构，那么您需要自行编译。
 
-在 [此仓库](https://github.com/AirportR/FullTCore) 下有一源码文件为 fulltclash.go ，您需要将该文件自行用Golang编译器编译成二进制文件。
+在 [此仓库](https://ghfast.top/https://github.com/AirportR/FullTCore) 下有一源码文件为 fulltclash.go ，您需要将该文件自行用Golang编译器编译成二进制文件。
 
 
 编译完成覆盖原文件即可 ，如果操作难度太大，可以发起issue详谈。
 ### Docker启动
-[./docker/ 目录](https://github.com/AirportR/fulltclash/tree/dev/docker)
+[./docker/ 目录](https://ghfast.top/https://github.com/AirportR/fulltclash/tree/dev/docker)
 ### 持久化运行
 自行Google搜索即可
 ### 控制台测试
@@ -264,20 +264,20 @@ Telegram官方并没有承认UID的说法，但确实存在于Telegram中。每�
 4. 是否有一键部署脚本\
 目前只有Docker部署脚本，期待你的贡献！  
 5. FullTClash名字来源于 Full Test base on Clash。\
-后端部分使用[Clash项目](https://github.com/Dreamacro/clash)(现在亦可称之为[mihomo](https://github.com/MetaCubeX/mihomo))相关代码作为出站代理。
+后端部分使用[Clash项目](https://ghfast.top/https://github.com/Dreamacro/clash)(现在亦可称之为[mihomo](https://ghfast.top/https://github.com/MetaCubeX/mihomo))相关代码作为出站代理。
 ## 致谢
 
-- [流媒体解锁思路](https://github.com/lmc999/RegionRestrictionCheck)  
-- [Clash](https://github.com/Dreamacro/clash) ==> [mihomo](https://github.com/MetaCubeX/mihomo)  [GPLv3]
-- [aiohttp](https://github.com/aio-libs/aiohttp)  [Apache2]  
-- [pyrogram](https://github.com/pyrogram/pyrogram)  [LGPLv3]  
-- [async-timeout](https://github.com/aio-libs/async-timeout)  [Apache2]    
-- [Pillow](https://github.com/python-pillow/Pillow)  [HPND]  
-- [pilmoji](https://github.com/jay3332/pilmoji)  [MIT]  
-- [pyyaml](https://github.com/yaml/pyyaml)  [MIT]  
-- [APScheduler](https://github.com/agronholm/apscheduler)  [MIT]  
-- [loguru](https://github.com/Delgan/loguru)  [MIT]  
-- [geoip2](https://github.com/maxmind/GeoIP2-python)  [Apache2]  
-- [cryptography](https://github.com/pyca/cryptography)  [Apache2] [BSD3]  
-- [google-re2](https://github.com/google/re2)  [BSD3]
-- [aiohttp_socks](https://github.com/romis2012/aiohttp-socks)  [Apache2]
+- [流媒体解锁思路](https://ghfast.top/https://github.com/lmc999/RegionRestrictionCheck)  
+- [Clash](https://ghfast.top/https://github.com/Dreamacro/clash) ==> [mihomo](https://ghfast.top/https://github.com/MetaCubeX/mihomo)  [GPLv3]
+- [aiohttp](https://ghfast.top/https://github.com/aio-libs/aiohttp)  [Apache2]  
+- [pyrogram](https://ghfast.top/https://github.com/pyrogram/pyrogram)  [LGPLv3]  
+- [async-timeout](https://ghfast.top/https://github.com/aio-libs/async-timeout)  [Apache2]    
+- [Pillow](https://ghfast.top/https://github.com/python-pillow/Pillow)  [HPND]  
+- [pilmoji](https://ghfast.top/https://github.com/jay3332/pilmoji)  [MIT]  
+- [pyyaml](https://ghfast.top/https://github.com/yaml/pyyaml)  [MIT]  
+- [APScheduler](https://ghfast.top/https://github.com/agronholm/apscheduler)  [MIT]  
+- [loguru](https://ghfast.top/https://github.com/Delgan/loguru)  [MIT]  
+- [geoip2](https://ghfast.top/https://github.com/maxmind/GeoIP2-python)  [Apache2]  
+- [cryptography](https://ghfast.top/https://github.com/pyca/cryptography)  [Apache2] [BSD3]  
+- [google-re2](https://ghfast.top/https://github.com/google/re2)  [BSD3]
+- [aiohttp_socks](https://ghfast.top/https://github.com/romis2012/aiohttp-socks)  [Apache2]

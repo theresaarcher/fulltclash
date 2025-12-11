@@ -19,7 +19,7 @@ class TestDownload(unittest.TestCase):
     def setUp(self):
         pin_cwd()
         from utils.collector import Download
-        durl = "https://github.com/AirportR/FullTCore/releases/download/v1.3-meta/FullTCore_1.3-meta_windows_amd64.zip"
+        durl = "https://ghfast.top/https://github.com/AirportR/FullTCore/releases/download/v1.3-meta/FullTCore_1.3-meta_windows_amd64.zip"
         dl = Download(durl, "./tests", durl.split("/")[-1])
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)

@@ -6,7 +6,7 @@ from utils.cleaner import config
 def geo_info(ip):
     """
     保留原作者信息
-    author: https://github.com/Oreomeow
+    author: https://ghfast.top/https://github.com/Oreomeow
     感谢Oreomeow对于ssrspeedn项目的开源
     部分内容已修改
     """

@@ -20,7 +20,7 @@ class EmojiPediaSource(pilmoji.source.DiscordEmojiSourceMixin):
     """
     A base source that fetches emojis from emojipedia.
     保留原作者信息
-    author: https://github.com/Oreomeow
+    author: https://ghfast.top/https://github.com/Oreomeow
     修改: 增加本地源
     """
     BASE_EMOJIPEDIA_URL: ClassVar[str] = "https://em-content.zobj.net/thumbs/120/"
@@ -138,7 +138,7 @@ class LocalSource(pilmoji.source.BaseSource):
 
 class OpenmojiLocalSource(LocalSource):
     """
-    图片源：https://github.com/hfg-gmuend/openmoji/tree/master/color/72x72
+    图片源：https://ghfast.top/https://github.com/hfg-gmuend/openmoji/tree/master/color/72x72
     安装路径：./resources/emoji/openmoji
     """
 
@@ -155,7 +155,7 @@ class OpenmojiLocalSource(LocalSource):
 
 class TwemojiLocalSource(LocalSource):
     """
-    图片源：https://github.com/twitter/twemoji/tree/master/assets/72x72
+    图片源：https://ghfast.top/https://github.com/twitter/twemoji/tree/master/assets/72x72
     安装路径：./resources/emoji/twemoji
     """
 
@@ -164,7 +164,7 @@ class TwemojiLocalSource(LocalSource):
         构造函数中，如果init不为none，则提供下载emoji资源包的url地址
         """
         self.savepath = './resources/emoji/twemoji.zip'
-        self._download_url = 'https://github.com/twitter/twemoji/archive/refs/tags/v14.0.2.zip'
+        self._download_url = 'https://ghfast.top/https://github.com/twitter/twemoji/archive/refs/tags/v14.0.2.zip'
         if init is None:
             return
         self.download_emoji(init, proxy=proxy)

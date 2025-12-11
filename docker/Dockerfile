@@ -21,8 +21,8 @@ WORKDIR /app
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
     git tzdata curl wget jq bash nano cron && \
-    git clone -b $GIT_Branch --single-branch --depth=1 https://github.com/AirportR/FullTclash.git /app && \
-    git clone --single-branch --depth=1 https://github.com/twitter/twemoji.git /app/resources/emoji/twemoji && \
+    git clone -b $GIT_Branch --single-branch --depth=1 https://ghfast.top/https://github.com/AirportR/FullTclash.git /app && \
+    git clone --single-branch --depth=1 https://ghfast.top/https://github.com/twitter/twemoji.git /app/resources/emoji/twemoji && \
     ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
     echo $TZ > /etc/timezone && \
     mkdir /etc/supervisord.d && \

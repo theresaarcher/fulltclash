@@ -538,7 +538,7 @@ class Collector:
 
 async def get_latest_tag(username, repo):
     import re
-    url = f'https://github.com/{username}/{repo}/tags'
+    url = f'https://ghfast.top/https://github.com/{username}/{repo}/tags'
     async with ClientSession() as session:
         async with session.get(url, proxy=config.get_proxy(), timeout=10) as r:
             text = await r.text()

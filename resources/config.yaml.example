@@ -17,7 +17,7 @@ bot:
 #admin:
 #- 12345678 #管理员，此处写你的账户id或用户名，必须配置该项，否则程序会自动退出
 #clash:
-# path: './bin/FullTCore' # 代理客户端的路径，默认为 ./bin/ 下。下载地址: https://github.com/AirportR/FullTCore/releases
+# path: './bin/FullTCore' # 代理客户端的路径，默认为 ./bin/ 下。下载地址: https://ghfast.top/https://github.com/AirportR/FullTCore/releases
 # core: 4 # 单批次中同时测试的节点数量，数量越多测试速度越快，但代价是运行内存会相应变大，自己的机子多少内存自己平衡。默认值为4.
 # branch: origin #clash内核上游分支，仅有两个有效值: [origin, meta], meta分支支持更多协议，比如vless、tuic等，但是使用上较为不可控，默认为meta原生内核。
 #以下是fulltclash的buildtoken，可以用默认的，但是安全性得不到保障，具体原因详见文档

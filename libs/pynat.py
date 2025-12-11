@@ -37,7 +37,7 @@ import socket
 import sys
 
 __version__ = "0.7.0"
-URL = "https://github.com/aarant/pynat"
+URL = "https://ghfast.top/https://github.com/aarant/pynat"
 
 
 class PynatError(Exception):

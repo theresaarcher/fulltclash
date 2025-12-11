@@ -19,7 +19,7 @@ clash:
  branch: origin
 ```
 
-或者 [Meta内核](https://github.com/AirportR/FullTCore/tree/meta)
+或者 [Meta内核](https://ghfast.top/https://github.com/AirportR/FullTCore/tree/meta)
 
 ```bash
 clash:
@@ -82,7 +82,7 @@ docker run -itd \
 
 ```bash
 # 安装 docker-compose
-# curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+# curl -L https://ghfast.top/https://github.com/docker/compose/releases/latest/download/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 # chmod +x /usr/local/bin/docker-compose
 wget -N https://raw.githubusercontent.com/AirportR/fulltclash/dev/docker/docker-compose.yml
 

@@ -179,8 +179,8 @@ class Init:
             logger.info("无法找到FullTCore在当前平台的预编译文件，请自行下载。")
             return
 
-        # https://github.com/AirportR/FullTCore/releases/download/v1.3-meta/FullTCore_1.3-meta_windows_amd64.zip
-        base_url = f"https://github.com/{Init.ftcore_owner}/{Init.ftcore_name}"
+        # https://ghfast.top/https://github.com/AirportR/FullTCore/releases/download/v1.3-meta/FullTCore_1.3-meta_windows_amd64.zip
+        base_url = f"https://ghfast.top/https://github.com/{Init.ftcore_owner}/{Init.ftcore_name}"
 
         download_url = base_url + f"/releases/download/{tag}/{Init.ftcore_name}_{tag2}_{pf}_{arch}{suffix}"
         savename = download_url.split("/")[-1]

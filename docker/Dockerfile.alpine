@@ -20,8 +20,8 @@ WORKDIR /app
 
 RUN apk add --no-cache \
     git tzdata curl jq wget bash nano && \
-    git clone -b $GIT_Branch --single-branch --depth=1 https://github.com/AirportR/FullTclash.git /app && \
-    git clone --single-branch --depth=1 https://github.com/twitter/twemoji.git /app/resources/emoji/twemoji && \
+    git clone -b $GIT_Branch --single-branch --depth=1 https://ghfast.top/https://github.com/AirportR/FullTclash.git /app && \
+    git clone --single-branch --depth=1 https://ghfast.top/https://github.com/twitter/twemoji.git /app/resources/emoji/twemoji && \
     ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
     echo $TZ > /etc/timezone && \
     echo "00 6 * * * bash /app/docker/update.sh" >> /var/spool/cron/crontabs/root && \
